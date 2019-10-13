@@ -1,0 +1,101 @@
+/* Menu */
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    max-width: 100%;
+}
+
+#menu {
+    top: 65px;
+    left: 15px;
+    position: absolute;
+    width: 100%;
+    background: white;
+    list-style-type: none;
+    display: block;
+    -webkit-font-smoothing: antialiased;
+    padding: 0 0 0 0;
+    margin-top: -36px;
+    transform-origin: 0% 0%;
+    color: black;
+    font-size: 20px;
+}
+
+#menu a {
+    margin-left: 15px;
+}
+
+/* Home */
+
+.home {
+    min-height: 100vh;
+    background: white;
+}
+
+.home h1 {
+    color: black;
+}
+
+/* About */
+
+.about {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about h3 {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 50px;
+}
+
+/* Projects */
+
+.projects {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Track */
+
+.track {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Contact */
+
+.contact {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* Links */
+
+li {
+    list-style-type: none;
+    margin-top: 2.5px;
+}
+
+a {
+    color: #434A54;
+    line-height: 2rem;
+    text-decoration: none;
+}
+
+.imbedded {
+    font-size: 2rem;
+    text-decoration: none;
+    color: #16a085;
+}
