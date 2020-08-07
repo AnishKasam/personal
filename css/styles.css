@@ -20,11 +20,17 @@ body {
     margin-top: -36px;
     transform-origin: 0% 0%;
     color: black;
-    font-size: 20px;
 }
 
 #menu a {
-    margin-left: 20px;
+    margin-left: calc(20px + 1vw);
+    color: black;
+    font-size: calc(15px + 0.6vw)
+}
+
+#menu a:hover {
+    color: #636e72;
+    transition-duration: 0.5s;
 }
 
 /* Home */
@@ -35,7 +41,11 @@ body {
 }
 
 .home h1 {
-color: black;
+    color: black;
+}
+
+.type {
+    font-size: calc(40px + 4vw)
 }
 
 /* About */
@@ -95,7 +105,16 @@ a {
 }
 
 .imbedded {
-    font-size: 2rem;
     text-decoration: none;
     color: #16a085;
+}
+
+/* Font Sizes */
+
+.container h3 {
+    font-size: calc(35px + 3vw)
+}
+
+.container h5, a {
+    font-size: calc(20px + 1.25vw)
 }
